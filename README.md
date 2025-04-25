@@ -1,4 +1,4 @@
-# Quasar App (fb2)
+# Reader App (fb2)
 
 A Quasar Project
 

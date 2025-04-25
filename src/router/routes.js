@@ -1,10 +1,15 @@
+import BookShelf from 'components/BookShelf.vue'
+import BookReader from 'components/BookReader.vue'
+
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
-    ]
+    component: BookShelf
+  },
+  {
+    path: '/reader',
+    name: 'reader',
+    component: BookReader
   },
 
   // Always leave this as last one,
